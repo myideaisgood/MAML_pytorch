@@ -1,0 +1,59 @@
+[INFO] 2021-06-09 10:12:59,405 	         K_shot:	5
+[INFO] 2021-06-09 10:12:59,405 	          N_way:	5
+[INFO] 2021-06-09 10:12:59,405 	     batch_size:	4
+[INFO] 2021-06-09 10:12:59,405 	       ckpt_dir:	ckpt/
+[INFO] 2021-06-09 10:12:59,405 	       data_dir:	dataset/
+[INFO] 2021-06-09 10:12:59,405 	        dataset:	miniImagenet
+[INFO] 2021-06-09 10:12:59,405 	         epochs:	60000
+[INFO] 2021-06-09 10:12:59,405 	 evaluate_every:	100
+[INFO] 2021-06-09 10:12:59,405 	  evaluate_task:	100
+[INFO] 2021-06-09 10:12:59,405 	experiment_name:	default/
+[INFO] 2021-06-09 10:12:59,405 	    first_order:	True
+[INFO] 2021-06-09 10:12:59,405 	        gpu_num:	0
+[INFO] 2021-06-09 10:12:59,405 	    hidden_unit:	64
+[INFO] 2021-06-09 10:12:59,405 	        log_dir:	log/
+[INFO] 2021-06-09 10:12:59,405 	        meta_lr:	0.0001
+[INFO] 2021-06-09 10:12:59,405 	 num_steps_test:	10
+[INFO] 2021-06-09 10:12:59,405 	num_steps_train:	5
+[INFO] 2021-06-09 10:12:59,405 	    print_every:	100
+[INFO] 2021-06-09 10:12:59,406 	      query_num:	15
+[INFO] 2021-06-09 10:12:59,406 	     save_every:	10
+[INFO] 2021-06-09 10:12:59,406 	      step_size:	0.01
+[INFO] 2021-06-09 10:12:59,406 	  summary_every:	10
+[INFO] 2021-06-09 10:12:59,406 	       task_num:	2
+[INFO] 2021-06-09 10:12:59,406 	        weights:	ckpt-best.pth
+[INFO] 2021-06-09 10:14:32,619 Saved checkpoint to experiments/default/ckpt/ckpt-best.pth ...
+[INFO] 2021-06-09 10:14:32,619 Val  [Epoch 100/60000] Loss = 1.3473  Accuracy = 0.4464
+[INFO] 2021-06-09 10:14:32,619 Test [Epoch 100/60000] Loss = 1.3458  Accuracy = 0.4478
+[INFO] 2021-06-09 10:16:05,317 Saved checkpoint to experiments/default/ckpt/ckpt-best.pth ...
+[INFO] 2021-06-09 10:16:05,317 Val  [Epoch 200/60000] Loss = 1.3147  Accuracy = 0.4615
+[INFO] 2021-06-09 10:16:05,317 Test [Epoch 200/60000] Loss = 1.2719  Accuracy = 0.4778
+[INFO] 2021-06-09 10:17:39,371 Saved checkpoint to experiments/default/ckpt/ckpt-best.pth ...
+[INFO] 2021-06-09 10:17:39,371 Val  [Epoch 300/60000] Loss = 1.2792  Accuracy = 0.4779
+[INFO] 2021-06-09 10:17:39,371 Test [Epoch 300/60000] Loss = 1.2225  Accuracy = 0.5133
+[INFO] 2021-06-09 10:18:18,474 	         K_shot:	5
+[INFO] 2021-06-09 10:18:18,474 	          N_way:	5
+[INFO] 2021-06-09 10:18:18,474 	     batch_size:	4
+[INFO] 2021-06-09 10:18:18,474 	       ckpt_dir:	ckpt/
+[INFO] 2021-06-09 10:18:18,474 	       data_dir:	dataset/
+[INFO] 2021-06-09 10:18:18,474 	        dataset:	miniImagenet
+[INFO] 2021-06-09 10:18:18,474 	         epochs:	60000
+[INFO] 2021-06-09 10:18:18,474 	 evaluate_every:	100
+[INFO] 2021-06-09 10:18:18,474 	  evaluate_task:	100
+[INFO] 2021-06-09 10:18:18,474 	experiment_name:	default/
+[INFO] 2021-06-09 10:18:18,474 	    first_order:	True
+[INFO] 2021-06-09 10:18:18,474 	        gpu_num:	0
+[INFO] 2021-06-09 10:18:18,475 	    hidden_unit:	64
+[INFO] 2021-06-09 10:18:18,475 	        log_dir:	log/
+[INFO] 2021-06-09 10:18:18,475 	        meta_lr:	0.0001
+[INFO] 2021-06-09 10:18:18,475 	 num_steps_test:	10
+[INFO] 2021-06-09 10:18:18,475 	num_steps_train:	5
+[INFO] 2021-06-09 10:18:18,475 	    print_every:	100
+[INFO] 2021-06-09 10:18:18,475 	      query_num:	15
+[INFO] 2021-06-09 10:18:18,475 	     save_every:	10
+[INFO] 2021-06-09 10:18:18,475 	      step_size:	0.01
+[INFO] 2021-06-09 10:18:18,475 	  summary_every:	10
+[INFO] 2021-06-09 10:18:18,475 	       task_num:	2
+[INFO] 2021-06-09 10:18:18,475 	        weights:	ckpt-best.pth
+[INFO] 2021-06-09 10:18:18,545 Recovering from experiments/default/ckpt/ckpt-best.pth ...
+[INFO] 2021-06-09 10:18:20,036 Recover completed. Current epoch = #300, best metrics (val) = 0.478, best metrics (test) = 0.513
